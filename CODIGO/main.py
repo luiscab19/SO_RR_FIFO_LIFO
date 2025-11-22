@@ -87,7 +87,7 @@ def main():
     print("=" * 70)
     
     # Cargar datos desde el archivo CSV
-    procesos = load_data("data_so.csv")
+    procesos = load_data("CODIGO\\data_so.csv")
     
     if not procesos:
         print("No se pudieron cargar los procesos. Saliendo...")
