@@ -16,7 +16,7 @@ Este proyecto implementa un simulador de tres algoritmos fundamentales de planif
 - **Generación de reportes** detallados con promedios
 - **Interfaz de consola** intuitiva
 
-## 🛠️ Instalación y Uso
+## Instalación y Uso
 
 ### Prerrequisitos
 - Python 3.8 o superior
