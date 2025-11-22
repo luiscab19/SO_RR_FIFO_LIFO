@@ -58,7 +58,6 @@ def mostrar_tabla_procesos(procesos, algoritmo):
     print(f"{algoritmo:^85}")
     print(f"{'=' * 85}")
     
-    # Encabezado que COINCIDE EXACTAMENTE con el formato de los datos
     print("| Proceso  | ti |  t  |  tf  |  T   |  E   |    I    |")
     print(f"{'-' * 85}")
     
