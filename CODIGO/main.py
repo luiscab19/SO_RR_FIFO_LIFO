@@ -38,7 +38,7 @@ def calcular_promedios(resultados):
     return total_T/n, total_E/n, total_I/n
 
 def mostrar_encabezado(titulo):
-    """Mostrar un encabezado con diseño limpio"""
+    """Mostrar un encabezado con diseño"""
     print("\n" + "=" * 70)
     print(f"{titulo:^70}")
     print("=" * 70)
@@ -59,7 +59,6 @@ def mostrar_recomendaciones(algoritmos):
     print(f"  * Menor Tiempo Espera: {mejor_E[0]} (E = {mejor_E[1][1]:.2f})")
     print(f"  * Mayor Indice Servicio: {mejor_I[0]} (I = {mejor_I[1][2]:.4f})")
     
-    # Recomendación general (priorizando Tiempo Total)
     recomendacion_general = mejor_T[0]
     
     print(f"\nRECOMENDACION GENERAL:")

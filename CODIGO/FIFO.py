@@ -53,7 +53,7 @@ def fifo(procesos, mostrar_tabla=True):
     return resultados, 0  # No medimos tiempo aquí
 
 def mostrar_tabla_procesos(procesos, algoritmo):
-    """Mostrar tabla de resultados con diseño mejorado"""
+    """Mostrar tabla de resultados"""
     print(f"\n{'=' * 85}")
     print(f"{algoritmo:^85}")
     print(f"{'=' * 85}")

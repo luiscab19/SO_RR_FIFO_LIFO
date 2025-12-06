@@ -50,7 +50,7 @@ def lifo(procesos, mostrar_tabla=True):
     print(f"   Tiempo Espera (E): {total_E/len(procesos):.2f}")
     print(f"   Indice Servicio (I): {total_I/len(procesos):.4f}")
     
-    return resultados, 0  # No medimos tiempo aquí
+    return resultados, 0  
 
 def mostrar_tabla_procesos(procesos, algoritmo):
     """Mostrar tabla de resultados con diseño mejorado"""
